@@ -21,8 +21,8 @@ class Graph:
 
     def __init__(self, maze):
         self.maze = maze
-        self.start = Node(7,0)
-        self.end = Node(0, 9)
+        self.start = Node(7,0, None, 0)
+        self.end = Node(0, 9, None, 160)
 
     def astar(self): 
         curropen.append(start)
