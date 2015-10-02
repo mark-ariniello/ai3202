@@ -1,3 +1,5 @@
+#Mark Ariniello
+
 import sys
 import numpy
 
@@ -57,7 +59,7 @@ class MDP:
 						reward = 1
 					if obstacle == 50:
 						reward = 50
-					if reward * gamma < self.policy[row][column][0] or self.policy[row][column][0] == 0:
+					if reward * gamma > self.policy[row][column][0] or self.policy[row][column][0] == 0:
 						print gamma
 						print i
 						self.policy[row][column][0] = reward * gamma
