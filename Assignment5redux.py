@@ -1,11 +1,5 @@
 #Mark Ariniello
 
-import sys
-import numpy
-
-#help from http://artint.info/html/ArtInt_227.html
-#Mark Ariniello
-
 # Program not really working, but I would guess that as e go loarger you would exit sooner, which could potentially change the path.
 
 import sys
